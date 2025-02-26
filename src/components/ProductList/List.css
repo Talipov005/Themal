@@ -1,0 +1,13 @@
+.product-list{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.glava h5 {
+    color: white;
+    margin-top: 10px;
+    font-size: large;
+}

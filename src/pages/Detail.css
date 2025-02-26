@@ -1,0 +1,41 @@
+.info-content {
+    display: flex;
+    gap: 250px;
+}
+
+.info-left {
+    width: 200px;
+}
+.info-left img {
+    width: 400px;
+}
+.info-right  {
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+
+
+}
+.info-right img {
+    width: 200px;
+}
+
+.arrow-left {
+    width: 70px;
+}
+.arrow-right {
+    width: 70px;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-des {
+    width: 1200px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

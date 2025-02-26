@@ -1,0 +1,21 @@
+.ingredient {
+    display: flex;
+    gap: 50px;
+}
+
+.image img {
+    width: 400px;
+}
+.meals-list {
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.cartalar  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cartalar img {
+    width: 200px;
+}

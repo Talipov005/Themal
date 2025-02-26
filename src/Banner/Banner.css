@@ -1,0 +1,88 @@
+.Home{
+    margin: 0 auto;
+    text-align: center;
+    width: 1200px;
+    color: white;
+}
+.Home-top{
+    display: flex;
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+}
+.Home-top img{
+    width:20% ;
+    height:80%;
+}
+.Home-top p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.Home-top button{
+    width: 190px;
+    background-color: yellow;
+    color: aqua;
+}
+.Home-top button:hover{
+    background-color: rgb(177, 59, 12);
+}
+.Home-top button span{
+    color: black;
+}
+.search-box {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.search-box input {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius:8px 0px 0px 8px ;
+    border: 1px solid #ccc; 
+    outline: none; 
+    color: black;
+} 
+
+.search-box button {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius:0px 8px 8px 0px ;
+    background-color: white;
+    color: black;
+    height: 43px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+    right: 1px;
+}
+
+.search-box button:hover {
+    background-color: rgb(177, 59, 12); 
+}
+
+.Home-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    border-bottom: 2px solid white;
+}
+
+.Home-cat div {
+    display: flex; 
+    align-items: center; 
+    border-radius: 8px; 
+}
+
+.Home-lat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+}
