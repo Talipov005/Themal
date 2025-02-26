@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import ApiClient from '../axios/ApiClient';
+import apiClient from '../axios/apiClient';
 import ProductList from '../components/ProductList/ProductList';
 import './Bukva.css'
 import Tamga from '../components/Tamga/Tamga'
@@ -13,7 +13,7 @@ function Bukva() {
 
   async function getTamga() {
     try {
-      const res = await ApiClient.get(`/search.php?f=${valuu.toLowerCase()}`);  
+      const res = await apiClient.get(`/search.php?f=${valuu.toLowerCase()}`);  
       console.log(res);
       setProduct(res.data.meals);  
     } catch (error) {

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import apiClient from '../Axios/apiClient';
+import apiClient from '../axios/apiClient';
 import './Detail.css';
-import { flag } from '../data/Flag';
+import { flag } from '../data/flag';
 
 
 const IMAGE_API = "http://www.themealdb.com/images/ingredients";
